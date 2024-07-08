@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umutcan Durbak - Kişisel Web Sayfası</title>
+    <style>
+        /* Renk Paleti */
+        :root {
+            --rich-black: #01161eff;
+            --midnight-green: #124559ff;
+            --air-force-blue: #598392ff;
+            --ash-gray: #aec3b0ff;
+            --beige: #eff6e0ff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--beige);
+            color: var(--rich-black);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--midnight-green);
+            color: var(--beige);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--air-force-blue);
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: var(--beige);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: var(--ash-gray);
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: var(--midnight-green);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: var(--midnight-green);
+            color: var(--beige);
+        }
+
+        /* Gizli bölümler */
+        #resume, #projects {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Umutcan Durbak</h1>
+        <p>Bilgisayar Mühendisliği Öğrencisi</p>
+    </header>
+    <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#resume" onclick="showSection('resume')">Özgeçmiş</a>
+        <a href="#projects" onclick="showSection('projects')">Projeler</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Hakkımda</h2>
+            <p>Merhaba, ben Umutcan Durbak. Bilgisayar mühendisliği öğrencisiyim ve teknolojiye olan tutkum ile kendimi geliştirmeye devam ediyorum. Programlama ve yazılım geliştirme konularında çeşitli projeler üzerinde çalıştım.</p>
+        </section>
+        <section id="resume">
+            <h2>Özgeçmiş</h2>
+            <p>Burada özgeçmişiniz yer alacak. Eğitim, iş deneyimi ve diğer önemli bilgileri buraya ekleyebilirsiniz.</p>
+        </section>
+        <section id="projects">
+            <h2>Projeler</h2>
+            <p>Burada projeleriniz hakkında bilgi verebilirsiniz. Hangi projeler üzerinde çalıştığınızı ve bu projelerde hangi teknolojileri kullandığınızı anlatabilirsiniz.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Umutcan Durbak</p>
+    </footer>
+    <script>
+        function showSection(sectionId) {
+            document.getElementById('about').style.display = 'none';
+            document.getElementById('resume').style.display = 'none';
+            document.getElementById('projects').style.display = 'none';
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
