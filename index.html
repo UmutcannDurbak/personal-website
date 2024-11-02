@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umutcan Durbak - Kişisel Web Sayfası</title>
+    <title>Umutcan Durbak - Personal Website</title>
     <style>
-        /* Renk Paleti */
+        /* Color Palette */
         :root {
             --rich-black: #01161eff;
             --midnight-green: #124559ff;
@@ -74,7 +74,7 @@
             color: var(--beige);
         }
 
-        /* Gizli bölümler */
+        /* Hidden sections */
         #resume, #projects {
             display: none;
         }
@@ -83,29 +83,39 @@
 <body>
     <header>
         <h1>Umutcan Durbak</h1>
-        <p>Bilgisayar Mühendisliği Öğrencisi</p>
+        <p>Computer Engineering Student | Software Developer | AR Enthusiast</p>
     </header>
     <nav>
-        <a href="#about">Hakkımda</a>
-        <a href="#resume" onclick="showSection('resume')">Özgeçmiş</a>
-        <a href="#projects" onclick="showSection('projects')">Projeler</a>
+        <a href="#about">About</a>
+        <a href="#resume" onclick="showSection('resume')">Resume</a>
+        <a href="#projects" onclick="showSection('projects')">Projects</a>
     </nav>
     <div class="container">
         <section id="about">
-            <h2>Hakkımda</h2>
-            <p>Merhaba, ben Umutcan Durbak. Bilgisayar mühendisliği öğrencisiyim ve teknolojiye olan tutkum ile kendimi geliştirmeye devam ediyorum. Programlama ve yazılım geliştirme konularında çeşitli projeler üzerinde çalıştım.</p>
+            <h2>About</h2>
+            <p>Hello, I'm Umutcan Durbak, a Computer Engineering student with a strong interest in software development, particularly mobile applications, embedded systems, and augmented reality. Skilled in Python, Java, C#, SQL, and Unity, I'm dedicated to continuous learning and innovative projects.</p>
         </section>
         <section id="resume">
-            <h2>Özgeçmiş</h2>
-            <p>Burada özgeçmişiniz yer alacak. Eğitim, iş deneyimi ve diğer önemli bilgileri buraya ekleyebilirsiniz.</p>
+            <h2>Resume</h2>
+            <p><strong>Education:</strong> B.Sc. in Computer Science, Izmir Institute of Technology (2019 - Present)</p>
+            <p><strong>Skills:</strong> Python, Java, C, C#, SQL, JavaScript, Kotlin; OOP, Mobile Development, Machine Learning, Embedded Systems.</p>
+            <p><strong>Experience:</strong></p>
+            <ul>
+                <li>Software Engineer Intern, CMA Consultancy (2023) - Developed web applications using C#, JavaScript, SQL, HTML, CSS, and ASP.NET.</li>
+            </ul>
         </section>
         <section id="projects">
-            <h2>Projeler</h2>
-            <p>Burada projeleriniz hakkında bilgi verebilirsiniz. Hangi projeler üzerinde çalıştığınızı ve bu projelerde hangi teknolojileri kullandığınızı anlatabilirsiniz.</p>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>NeoAR - Augmented Reality Mobile Application:</strong> Created for Arçelik using Unity and Vuforia SDK, delivering an interactive AR experience.</li>
+                <li><strong>Malware Classification Project:</strong> Led a machine learning project focusing on virus classification with decision trees and random forests.</li>
+                <li><strong>Car Rental System:</strong> Developed a complete rental management system using Oracle DBMS, supporting inventory tracking and payment processing.</li>
+            </ul>
         </section>
     </div>
     <footer>
         <p>&copy; 2024 Umutcan Durbak</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/umutcan-durbak/" target="_blank">linkedin.com/in/umutcan-durbak</a> | GitHub: <a href="https://github.com/UmutcannDurbak" target="_blank">github.com/UmutcannDurbak</a></p>
     </footer>
     <script>
         function showSection(sectionId) {
