@@ -1,0 +1,23 @@
+{
+  "aboutTitle": "About Me",
+  "aboutText": "I am currently focused on game development and frontend engineering, actively working with Unity(with C#) and JavaScript. My academic and freelance experiences span embedded systems, AR development, and machine learning. I've contributed to real-world AR projects and engaged in RLHF-based freelance tasks, while also enhancing my skills in software architecture, .NET backend development, and full-stack workflows. These diverse experiences have shaped me into a versatile and solution-oriented developer.",
+  "experienceTitle": "Experience",
+  "exp1title": "CMA (Intern)",
+  "exp1desc": "Worked on .NET backend services, focusing on CRUD operations and SQL integrations (2024)",
+  "exp2title": "RLHF Freelance Tasks",
+  "exp2desc": "Participated in prompt evaluation and language model alignment projects (Outlier)",
+  "exp3title": "NeoMobile AR Project",
+  "exp3desc": "Designed an AR user guide for Arçelik using Unity and Vuforia SDK, including error-code based interaction flow",
+  "projectsTitle": "Projects",
+  "project1": "Developed an interactive AR application as a thesis project for Arçelik washing machines. Implemented real-time guidance and error-based solution steps using Unity, C#, and Vuforia SDK. Features include QR-code triggering, step navigation, and overlay animations targeting user behavior improvements.",
+  "project2": "Responsive web application that fetches live weather data using OpenWeatherMap API. Built with vanilla JavaScript, HTML, and CSS.",
+  "project3": "Created a productivity tool for managing daily study tasks and sessions. Includes focus timer, local storage tracking, and theme switching. Built with HTML/CSS and modular JavaScript.",
+  "project4": "Unity-based 3D game where the player collects targets in a bounded scene. Implemented physics, camera follow system, and input controls. Demonstrates foundational gameplay scripting and Unity UI management.",
+  "contactTitle": "Contact",
+  "contactDesc": "You can reach me through:",
+  "navAbout": "About",
+  "navExperience": "Experience",
+  "navProjects": "Projects",
+  "navContact": "Contact",
+  "subtitle": "Computer Engineer - Game & AR Developer - Curious Learner"
+}
