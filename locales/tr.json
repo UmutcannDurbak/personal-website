@@ -13,6 +13,8 @@
   "project2": "OpenWeatherMap API kullanarak canlı hava durumu verilerini çeken responsive web uygulaması. Vanilla JavaScript, HTML ve CSS ile geliştirildi.",
   "project3": "Günlük çalışma görevlerini ve oturumlarını yönetmek için bir verimlilik aracı. Focus timer, local storage kaydı ve tema geçişi içerir. HTML/CSS ve modüler JavaScript ile geliştirildi.",
   "project4": "Unity tabanlı 3D oyun. Oyuncu, sınırlı bir sahada hedefleri toplar. Fizik, kamera takip sistemi ve giriş kontrolleri uygulandı. Temel oyun programlama ve Unity UI yönetimini gösterir.",
+  "project5": "Bir şirketin test vakası için bir crossword karıştırıcı ugyulaması yaptım. Phaser ve karıştırma algoritması kullanarak verilen kelime listesi için farklı senaryolar oluşturup mevcut CrossWord oyununu görebilirsiniz. Aşağıdan bu projeye ulaşabilir ve farklı kelime listeleri ile deneyebilirsiniz.",
+  "project6": "Eğitimim sırasında aldığım Makine Öğrenmesi derslerine dayalı olarak çeşitli regresyon yöntemleri ve veri setleri kullanarak çalıştığım Colab not defterlerine Google Drive üzerinden erişebilirsiniz. Bu projeler arasında kötü amaçlı yazılım sınıflandırması, alışveriş merkezi müşteri segmentasyonu, Iris veri seti, meme kanseri sınıflandırması ve tek özellik regresyonu ile Boston verisi bulunmaktadır.",
   "contactTitle": "İletişim",
   "contactDesc": "Bana aşağıdaki bağlantılardan ulaşabilirsiniz:",
   "navAbout": "Hakkımda",

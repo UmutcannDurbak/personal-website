@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("project2-desc").textContent = data.project2;
         document.getElementById("project3-desc").textContent = data.project3;
         document.getElementById("project4-desc").textContent = data.project4;
+        document.getElementById("project5-desc").textContent = data.project5;
+        document.getElementById("project6-desc").textContent = data.project6;
 
         document.querySelector("#contact h2").textContent = data.contactTitle;
         document.querySelector("#contact p").textContent = data.contactDesc;

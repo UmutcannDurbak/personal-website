@@ -13,6 +13,8 @@
   "project2": "Responsive web application that fetches live weather data using OpenWeatherMap API. Built with vanilla JavaScript, HTML, and CSS.",
   "project3": "Created a productivity tool for managing daily study tasks and sessions. Includes focus timer, local storage tracking, and theme switching. Built with HTML/CSS and modular JavaScript.",
   "project4": "Unity-based 3D game where the player collects targets in a bounded scene. Implemented physics, camera follow system, and input controls. Demonstrates foundational gameplay scripting and Unity UI management.",
+  "project5": "Implemented a crossword shuffler for a company's test case. With Phaser and shuffle algorithm create different scenarios for given word list to see available CrossWord game. You can see reach this project and try with different word lists from below.",
+  "project6": "You can access Colab notebooks on Google Drive, which contain projects I worked on using various regression methods and datasets based on the Machine Learning courses I took during my education. Here are some of these projects: Malware classification, Mall Customer Segmentation, Iris dataset, Breast cancer classification, and Boston Data with one-feature regression.",
   "contactTitle": "Contact",
   "contactDesc": "You can reach me through:",
   "navAbout": "About",
