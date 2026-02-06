@@ -5,112 +5,255 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Umutcan Durbak | Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="topbar">
-      <select id="lang-switcher">
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-logo">UD.</div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#about" class="active">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="nav-controls">
+      <select id="lang-switcher" class="btn-icon" style="width: auto; padding: 0 10px; border-radius: 8px;">
         <option value="en">EN</option>
         <option value="tr">TR</option>
       </select>
-      <button id="theme-toggle">🌙</button>
+
+      <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">☰</button>
     </div>
-    <div class="intro">
-      <h1>Umutcan Durbak</h1>
-      <p class="subtitle">Computer Engineer • Mobile & AR Developer • Curious Learner</p>
-      <img class="avatar" src="https://i.ibb.co/WpKzfLpQ/file-5.jpg" alt="Umutcan Durbak">
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="subtitle">Computer Engineer • Mobile & AR Developer</span>
+        <h1 class="fade-in">Hi, I'm <br>Umutcan Durbak</h1>
+        <p class="fade-in-delay">
+          I build immersive digital experiences. Specializing in mobile development,
+          AR applications, and robust software architecture. Currently optimizing IT systems at BHU.
+        </p>
+
+        <div class="hero-buttons fade-in-delay">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-in">
+        <div class="avatar-container">
+          <div class="avatar-blob"></div>
+          <img class="avatar-img" src="https://i.ibb.co/WpKzfLpQ/file-5.jpg" alt="Umutcan Durbak">
+        </div>
+      </div>
     </div>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <main class="container">
 
-  <main>
+    <!-- About Section -->
     <section id="about">
       <h2>About Me</h2>
-      <p>I am currently focused on mobile development and AI applications, actively working with Unity and React Native. My academic and freelance experiences span embedded systems, AR development, and machine learning. I’ve contributed to real-world AR projects and engaged in RLHF-based freelance tasks, while also enhancing my skills in software architecture, .NET backend development, and full-stack workflows. These diverse experiences have shaped me into a versatile and solution-oriented developer.</p>
+      <p id="about-text" style="white-space: pre-line;">
+        I am a versatile Software & Data Engineer interested in solving complex problems.
+        My journey spans from developing Augmented Reality user guides for major brands like Arçelik to
+        optimizing factory IT systems using data analysis.
+
+        I am deeply passionate about Mobile Development (React Native) and Unity3D.
+        Whether it's aligning LLMs for AI safety or building full-stack .NET architectures,
+        I aim for precision and impact.
+      </p>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
       <h2>Experience</h2>
-      <ul>
-        <li><strong>CMA (Intern)</strong> - Worked on .NET backend services, focusing on CRUD operations, API development and SQL integrations (2024)</li>
-        <li><strong>RLHF Freelance Tasks</strong> - Participated in prompt evaluation and language model alignment projects (Outlier)</li>
-        <li><strong>NeoMobile AR Project</strong> - Designed an AR user guide for Arçelik using Unity and Vuforia SDK, including error-code based interaction flow</li>
-      </ul>
+      <div class="timeline">
+
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>BHU - Software & Data Engineer</h3>
+              <span class="timeline-date">2025 - Present</span>
+            </div>
+            <p>Leading the optimization of factory IT systems, managing data analysis pipelines, and overseeing POS
+              System improvements. Also handling Google SEO strategies.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>SCA Social - Project Management Intern</h3>
+              <span class="timeline-date">09/2025</span>
+            </div>
+            <p>Managed portfolios linking production and design in AI, data science, and IT law projects.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>OutlierAI - Prompt & RLHF Engineer</h3>
+              <span class="timeline-date">10/2024 - 01/2025</span>
+            </div>
+            <p>Evaluated prompts and worked on language model alignment (RLHF) projects as a freelancer.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Arçelik - NeoAR Mobile Guide Project</h3>
+              <span class="timeline-date">2023 - 2024</span>
+            </div>
+            <p>Thesis Project: Designed an innovative AR user guide using Unity & Vuforia SDK, reducing user error rates
+              through interactive 3D overlays.</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Uzuner CMA - .NET Developer Intern</h3>
+              <span class="timeline-date">08/2023</span>
+            </div>
+            <p>Developed backend services using .NET ecosystem, focusing on SQL integration and RESTful API
+              architecture.</p>
+          </div>
+        </div>
+
+      </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
 
-      <div class="project">
-        <h3>NeoAR - AR Manual App</h3>
-        <p><span id="project1-desc">Developed an interactive AR application as a thesis project for Arçelik washing machines. Implemented real-time guidance and error-based solution steps using Unity, C#, and Vuforia SDK. Features include QR-code triggering, step navigation, and overlay animations targeting user behavior improvements.</span></p>
-      </div>
+        <div class="project-card" data-link="hidden"> <!-- Modal content only -->
+          <h3>NeoAR - AR Manual App</h3>
+          <p>Thesis project for Arçelik. An interactive AR application offering real-time guidance for washing machines
+            using QR triggers.</p>
+          <div class="project-tags">
+            <span class="tag">Unity 3D</span>
+            <span class="tag">C#</span>
+            <span class="tag">Vuforia SDK</span>
+            <span class="tag">AR</span>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Weather Dashboard</h3>
-        <p>
-          <span id="project2-desc">Responsive web application that fetches live weather data using OpenWeatherMap API. Built with vanilla JavaScript, HTML, and CSS.</span>
-          <a href="https://github.com/UmutcannDurbak/weather-dashboard" target="_blank">View on GitHub</a>
-        </p>       
-      </div>
+        <div class="project-card" data-link="https://umutcanndurbak.github.io/weather-dashboard/">
+          <h3>Weather Dashboard</h3>
+          <p>Responsive web app fetching live weather data via OpenWeatherMap API with a clean UI.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">API Integration</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Study Planner Web App</h3>
-        <p>
-          <span id="project3-desc">Created a productivity tool for managing daily study tasks and sessions. Includes focus timer, local storage tracking, and theme switching. Built with HTML/CSS and modular JavaScript.</span>
-          <a href="https://github.com/UmutcannDurbak/study-planner" target="_blank">View on GitHub</a>
-        </p>    
-      </div>
+        <div class="project-card" data-link="https://umutcanndurbak.github.io/study-planner/">
+          <h3>Study Planner Web App</h3>
+          <p>Productivity tool for students with focus timer, local storage tracking, and theme switching.</p>
+          <div class="project-tags">
+            <span class="tag">Vanilla JS</span>
+            <span class="tag">Local Storage</span>
+            <span class="tag">Productivity</span>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>Roll-a-Ball Game</h3>
-        <p>
-          <span id="project4-desc">Unity-based 3D game where the player collects targets in a bounded scene. Implemented physics, camera follow system, and input controls. Demonstrates foundational gameplay scripting and Unity UI management.</span>
-          <a href="https://github.com/UmutcannDurbak/rollaball-game" target="_blank">View on GitHub</a>
-        </p>      
-      </div>
+        <div class="project-card" data-link="https://github.com/UmutcannDurbak/rollaball-game">
+          <h3>Roll-a-Ball Game</h3>
+          <p>Physics-based 3D collection game demonstrating foundational Unity gameplay mechanics.</p>
+          <div class="project-tags">
+            <span class="tag">Unity</span>
+            <span class="tag">GameDev</span>
+            <span class="tag">Physics</span>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>CrossWord Shuffler</h3>
-        <p>
-          <span id="project5-desc">Implemented a crossword shuffler for a company's test case. With Phaser and shuffle algorithm create different scenarios for given word list to see available CrossWord game. You can see reach this project and try with different word lists from below.</span>
-          <a href="https://github.com/UmutcannDurbak/playin-case" target="_blank">View on GitHub</a>
-        </p>      
-      </div>
+        <div class="project-card" data-link="https://umutcanndurbak.github.io/playin-case/">
+          <h3>CrossWord Shuffler</h3>
+          <p>Algorithmic challenge using Phaser to generate crossword scenarios from word lists.</p>
+          <div class="project-tags">
+            <span class="tag">Phaser.js</span>
+            <span class="tag">Algorithms</span>
+            <span class="tag">Game Logic</span>
+          </div>
+        </div>
 
-      <div class="project">
-        <h3>ML Projects</h3>
-        <p>
-          <span id="project6-desc">You can access Colab notebooks on Google Drive, which contain projects I worked on using various regression methods and datasets based on the Machine Learning courses I took during my education. Here are some of these projects: Malware classification, Mall Customer Segmentation, Iris dataset, Breast cancer classification, and Boston Data with one-feature regression.</span>
-          <a href="https://drive.google.com/drive/folders/15h8bxNikh2wW-5TCM1wkVDtW1bNgHkzi?usp=sharing" target="_blank">View on Drive</a>
-        </p>      
+        <div class="project-card"
+          data-link="https://drive.google.com/drive/folders/15h8bxNikh2wW-5TCM1wkVDtW1bNgHkzi?usp=sharing">
+          <h3>ML Notebooks Collection</h3>
+          <p>A repository of Colab notebooks covering Regression, Classification, and Clustering implementations.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-Learn</span>
+            <span class="tag">Pandas</span>
+          </div>
+        </div>
+
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-      <h2>Contact</h2>
-      <p>You can reach me through:</p>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/umutcan-durbak" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/UmutcannDurbak" target="_blank">GitHub</a></li>
-      </ul>
+      <h2>Get In Touch</h2>
+      <p style="text-align: center; max-width: 600px; margin: 0 auto 30px auto;">
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <a href="https://www.linkedin.com/in/umutcan-durbak" target="_blank" class="btn btn-primary">LinkedIn</a>
+        <a href="https://github.com/UmutcannDurbak" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
     </section>
+
   </main>
 
   <footer>
-    <p>© Umutcan Durbak 2025 - Built with ❤</p>
+    <p>© Umutcan Durbak 2025</p>
   </footer>
+
+  <!-- Modal Structure -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
 </body>
 
 </html>

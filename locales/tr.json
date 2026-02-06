@@ -1,13 +1,33 @@
 {
   "aboutTitle": "Hakkımda",
-  "aboutText": "Şu anda oyun geliştirme ve frontend uygulamaları üzerine odaklanıyorum. Unity(C#) ve JavaScript ile aktif olarak projeler geliştiriyorum. Akademik ve freelance deneyimlerim gömülü sistemler, artırılmış gerçeklik ve makine öğrenmesi alanlarını kapsıyor. Gerçek dünya projelerine katkıda bulundum ve RLHF tabanlı freelance görevlerde yer aldım. Ayrıca yazılım mimarisi, .NET backend geliştirme ve full-stack yapılarında kendimi geliştirdim. Bu çeşitli deneyimler beni çok yönlü ve çözüm odaklı bir geliştirici haline getirdi.",
+  "aboutText": "Şu anda Bolulu Hasan Usta'da Yazılım & Veri Mühendisi olarak çalışıyorum ve fabrika BT sistemlerinden sorumluyum.\nAyrıca mobil geliştirme ve yapay zeka uygulamalarına odaklanıyorum, aktif olarak Unity ve React Native ile çalışıyorum.\nAkademik ve serbest çalışma deneyimlerim gömülü sistemler, AR geliştirme ve makine öğrenimini kapsıyor.\nGerçek dünya AR projelerine katkıda bulundum ve RLHF tabanlı serbest görevlerde yer aldım, aynı zamanda yazılım mimarisi, .NET backend geliştirme ve full-stack iş akışlarındaki becerilerimi geliştirdim.\nBu çeşitli deneyimler beni çok yönlü ve çözüm odaklı bir geliştirici haline getirdi.",
   "experienceTitle": "Deneyim",
-  "exp1title": "CMA (Stajyer)",
-  "exp1desc": ".NET backend servisleri üzerinde çalıştım. CRUD işlemleri ve SQL entegrasyonları yaptım. (2024)",
-  "exp2title": "RLHF Freelance Çalışması",
-  "exp2desc": "Prompt değerlendirme ve dil modeli hizalama projelerinde görev aldım. (Outlier)",
-  "exp3title": "NeoMobile AR Projesi",
-  "exp3desc": "Arçelik için Unity ve Vuforia SDK kullanarak hata kodlarına dayalı etkileşimli bir AR kullanıcı rehberi tasarladım.",
+
+  "exp1title": "BHU - BT Uzmanı (Bilg. Mühendisi - 2025)",
+  "exp1desc": "Bolulu Hasan Usta bünyesinde Yazılım Geliştirici olarak aktif olarak çalışıyorum, POS Sistemleri optimizasyonu, Google SEO analizi ve veri entegrasyon sistemleri geliştirmesi gibi çeşitli yazılım sistemlerinden sorumluyum.",
+  "exp1logo": "logos/bhu-logo.png",
+  "exp1color": "#d5b36b",
+
+  "exp2title": "SCA Social - Proje Yönetimi (Stajyer - 09/2025)",
+  "exp2desc": "Proje yönetimi, organizasyon yönetimi, yapay zeka, veri bilimi ve BT hukuku alanlarında portföy (üretim - tasarım) süreçlerinde yer aldım.",
+  "exp2logo": "logos/sca-logo.png",
+  "exp2color": "#e45404",
+
+  "exp3title": "OutlierAI - Prompt&RLHF Mühendisi (Serbest Çalışan, 10/2024 - 01/2025)",
+  "exp3desc": "Cypher ve Kepler AI modelleri için prompt değerlendirme ve dil modeli hizalama projelerinde yer aldım.",
+  "exp3logo": "logos/outlierai-logo.png",
+  "exp3color": "#2a6796",
+
+  "exp4title":"Arçelik - NeoAR Mobile Rehber Projesi (Bitirme Projesi, 2023 - 2024)",
+  "exp4desc":"Unity ve Vuforia SDK kullanarak Arçelik işbirliği ile makine hata kodu tabanlı çözüm aşamaları da sunan bir AR kullanıcı kılavuzu uygulaması tasarladım.",
+  "exp4logo":"logos/arcelik-logo.png",
+  "exp4color":"#ce1127",
+
+  "exp5title":"Uzuner CMA - .Net Geliştirici (Stajyer - 08/2023)",
+  "exp5desc":"CRUD işlemleri, full-stack geliştirme ve SQL entegrasyonlarına odaklanarak .NET backend hizmetleri üzerinde çalıştım.",
+  "exp5logo":"logos/uzuner-logo.png",
+  "exp5color":"#ae0269",
+  
   "projectsTitle": "Projeler",
   "project1": "Arçelik çamaşır makineleri için interaktif bir AR uygulaması geliştirdim. Unity, C# ve Vuforia SDK kullanarak gerçek zamanlı yönlendirme ve hata tabanlı çözüm adımları uyguladım. Özellikler arasında QR kod tetikleyici, adım geçişi ve kullanıcı davranışına yönelik bindirme animasyonları yer alıyor.",
   "project2": "OpenWeatherMap API kullanarak canlı hava durumu verilerini çeken responsive web uygulaması. Vanilla JavaScript, HTML ve CSS ile geliştirildi.",

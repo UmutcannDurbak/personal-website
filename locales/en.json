@@ -1,13 +1,38 @@
 {
   "aboutTitle": "About Me",
-  "aboutText": "I am currently focused on game development and frontend engineering, actively working with Unity(with C#) and JavaScript. My academic and freelance experiences span embedded systems, AR development, and machine learning. I've contributed to real-world AR projects and engaged in RLHF-based freelance tasks, while also enhancing my skills in software architecture, .NET backend development, and full-stack workflows. These diverse experiences have shaped me into a versatile and solution-oriented developer.",
+  "aboutText": "I am currently working at BHU as a Software & Data Engineer and responsible for factory IT systems.\nAlso focused on mobile development and AI applications, actively working with Unity and React Native.\nMy academic and freelance experiences span embedded systems, AR development, and machine learning.\nI’ve contributed to real-world AR projects and engaged in RLHF-based freelance tasks, while also enhancing my skills in software architecture, .NET backend development, and full-stack workflows.\nThese diverse experiences have shaped me into a versatile and solution-oriented developer.",
   "experienceTitle": "Experience",
-  "exp1title": "CMA (Intern)",
-  "exp1desc": "Worked on .NET backend services, focusing on CRUD operations and SQL integrations (2024)",
-  "exp2title": "RLHF Freelance Tasks",
-  "exp2desc": "Participated in prompt evaluation and language model alignment projects (Outlier)",
-  "exp3title": "NeoMobile AR Project",
-  "exp3desc": "Designed an AR user guide for Arçelik using Unity and Vuforia SDK, including error-code based interaction flow",
+  
+  "exp1title": "BHU - IT Specialist (Comp. Engineer - 2025)",
+  "exp1desc": "I actively work as an IT Specialist within Bolulu Hasan Usta, responsible for various software systems like the data analysis, optimization of POS Systems, Google SEO analysis and development.",
+  "exp1logo": "logos/bhu-logo.png",
+  "exp1color": "#d5b36b",
+  
+  
+  "exp2title": "SCA Social - Project Management (Intern - 09/2025)",
+  "exp2desc": "I was involved in portfolio (production - design) processes in the fields of project management, organization management, artificial intelligence, data science and IT law.",
+  "exp2logo": "logos/sca-logo.png",
+  "exp2color": "#e45404",
+  
+  
+  "exp3title": "OutlierAI - Prompt&RLHF Engineer (Freelancer, 10/2024 - 01/2025)",
+  "exp3desc": "Participated in prompt evaluation and language model alignment projects.",
+  "exp3logo": "logos/outlierai-logo.png",
+  "exp3color": "#2a6796",
+  
+  
+  "exp4title":"Arçelik - NeoAR Mobile Guide Project (Thesis, 2023 - 2024)",
+  "exp4desc":"Designed an AR user guide for Arçelik using Unity and Vuforia SDK, including error-code based interaction flow",
+  "exp4logo":"logos/arcelik-logo.png",
+  "exp4color":"#ce1127",
+  
+  
+  "exp5title":"Uzuner CMA - .Net Developer (Intern - 08/2023)",
+  "exp5desc":"Worked on .NET backend services, focusing on CRUD operations, full-stack development and SQL integrations",
+  "exp5logo":"logos/uzuner-logo.png",
+  "exp5color":"#ae0269",
+  
+  
   "projectsTitle": "Projects",
   "project1": "Developed an interactive AR application as a thesis project for Arçelik washing machines. Implemented real-time guidance and error-based solution steps using Unity, C#, and Vuforia SDK. Features include QR-code triggering, step navigation, and overlay animations targeting user behavior improvements.",
   "project2": "Responsive web application that fetches live weather data using OpenWeatherMap API. Built with vanilla JavaScript, HTML, and CSS.",
